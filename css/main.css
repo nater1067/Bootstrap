@@ -1,0 +1,188 @@
+.swiper-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 1;
+}
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  -webkit-transition-property: -webkit-transform, left, top;
+  -webkit-transition-duration: 0s;
+  -webkit-transform: translate3d(0px, 0, 0);
+  -webkit-transition-timing-function: ease;
+  -moz-transition-property: -moz-transform, left, top;
+  -moz-transition-duration: 0s;
+  -moz-transform: translate3d(0px, 0, 0);
+  -moz-transition-timing-function: ease;
+  -o-transition-property: -o-transform, left, top;
+  -o-transition-duration: 0s;
+  -o-transform: translate3d(0px, 0, 0);
+  -o-transition-timing-function: ease;
+  -o-transform: translate(0px, 0px);
+  -ms-transition-property: -ms-transform, left, top;
+  -ms-transition-duration: 0s;
+  -ms-transform: translate3d(0px, 0, 0);
+  -ms-transition-timing-function: ease;
+  transition-property: transform, left, top;
+  transition-duration: 0s;
+  transform: translate3d(0px, 0, 0);
+  transition-timing-function: ease;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.swiper-free-mode > .swiper-wrapper {
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -ms-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  margin: 0 auto;
+}
+.swiper-slide {
+  float: left;
+}
+.swiper-wp8-horizontal {
+  -ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+  -ms-touch-action: pan-x;
+}
+#font .initDin .whiteDincond {
+  color: #ffffff;
+  font: 16px/18px 'dincond-regular';
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+body {
+  padding-top: 50px;
+  font-family: dincond-regular;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+}
+div#header {
+  background-color: #ce1e00;
+  background-image: -moz-linear-gradient(top, #ce1e00, #680a06);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ce1e00), to(#680a06));
+  background-image: -webkit-linear-gradient(top, #ce1e00, #680a06);
+  background-image: -o-linear-gradient(top, #ce1e00, #680a06);
+  background-image: linear-gradient(to bottom, #ce1e00, #680a06);
+  border: 1px solid #080808;
+  border-top: 0;
+  color: white;
+  line-height: 14px;
+  padding: 7px 8px 4px 8px;
+  text-align: center;
+}
+div#header.navbar {
+  margin-bottom: 0px;
+}
+div#header button.btn {
+  background-color: #323232;
+  background-image: -moz-linear-gradient(top, #323232, #0e0201);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#323232), to(#0e0201));
+  background-image: -webkit-linear-gradient(top, #323232, #0e0201);
+  background-image: -o-linear-gradient(top, #323232, #0e0201);
+  background-image: linear-gradient(to bottom, #323232, #0e0201);
+  border: 0px;
+  display: inline-block;
+  margin-bottom: 0px;
+  min-width: 35px;
+  min-height: 35px;
+  max-width: 40px;
+  vertical-align: middle;
+  width: auto;
+  line-height: 14px;
+  color: #ffffff;
+  margin-right: 0px;
+  text-decoration: none;
+  text-shadow: 1px 2px 1px #080808;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  white-space: normal;
+  box-sizing: border-box;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-indent: 0px;
+  margin-left: 3px;
+}
+.user-stats {
+  font-size: 16px;
+  line-height: 19px;
+  text-shadow: 1px 2px 1px #080808;
+}
+.user-stats p {
+  margin: 0px;
+}
+#tab-nav {
+  background: -moz-linear-gradient(top, rgba(16, 16, 16, 0.75) 0%, #111111 3%, #212121 38%, #383838 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(16, 16, 16, 0.75)), color-stop(3%, #111111), color-stop(38%, #212121), color-stop(100%, #383838));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(16, 16, 16, 0.75) 0%, #111111 3%, #212121 38%, #383838 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(16, 16, 16, 0.75) 0%, #111111 3%, #212121 38%, #383838 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(16, 16, 16, 0.75) 0%, #111111 3%, #212121 38%, #383838 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(16, 16, 16, 0.75) 0%, #111111 3%, #212121 38%, #383838 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bf101010', endColorstr='#383838', GradientType=0);
+  /* IE6-9 */
+  height: 30px;
+}
+#tab-nav a {
+  border-right: 1px solid #454545;
+  display: inline-block;
+  padding: 6px 5px 5px 5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 80px;
+  color: #A8A8A8;
+  text-decoration: none;
+}
+#tab-nav a.selected {
+  background: #343535;
+  background: -moz-linear-gradient(top, #343535 0%, #2d2d2d 27%, #181818 76%, #111212 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #343535), color-stop(27%, #2d2d2d), color-stop(76%, #181818), color-stop(100%, #111212));
+  background: -webkit-linear-gradient(top, #343535 0%, #2d2d2d 27%, #181818 76%, #111212 100%);
+  background: -o-linear-gradient(top, #343535 0%, #2d2d2d 27%, #181818 76%, #111212 100%);
+  background: -ms-linear-gradient(top, #343535 0%, #2d2d2d 27%, #181818 76%, #111212 100%);
+  background: linear-gradient(to bottom, #343535 0%, #2d2d2d 27%, #181818 76%, #111212 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#343535', endColorstr='#111212', GradientType=0);
+  border-bottom: 2px;
+  color: #fff;
+  text-shadow: 1px 2px 1px #080808;
+}
+@font-face {
+  font-family: 'dincond-regularregular';
+  src: url('../fonts/dincond-regular-webfont-webfont.eot');
+  src: url('../fonts/dincond-regular-webfont-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/dincond-regular-webfont-webfont.woff') format('woff'), url('../fonts/dincond-regular-webfont-webfont.ttf') format('truetype'), url('../fonts/dincond-regular-webfont-webfont.svg#dincond-regularregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: black;
+  font-family: 'dincond-regularregular';
+}
+.thumbnail {
+  background: none;
+}
+.game-thumbnails {
+  background: #111111;
+  padding-top: 15px;
+}
+/*# sourceMappingURL=main.css.map */
